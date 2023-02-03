@@ -1,0 +1,176 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 0 2rem;
+    }
+
+    .jumbotron .content p {
+        width: 100%;
+    } 
+    .welcome {
+        flex-direction: column;
+    }
+    .welcome img {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .welcome .content {
+        margin-left: 0;
+    }
+
+    /* jumbotron */
+    .jumbotron {
+
+    }
+    .jumbotron .content h1 {
+        font-size: 3rem;
+    }
+    .jumbotron img {
+        width: 100vw;
+    }
+    .jumbotron .content {
+        width: 100vw;
+        padding: 2rem;
+    }
+
+    /* footer */
+    .links.footer li {
+        margin: 2rem;
+    }
+
+    /* item */
+    .item {
+        flex-direction: column !important;
+    }
+    .item.reverse {
+        flex-direction: column-reverse !important;
+    }
+
+    /* about */
+    #about {
+        display: none !important;
+    }
+
+    /* nav */
+    nav .links {
+        display: none !important;
+    }
+
+    header nav button {
+        display: flex;
+    }
+
+    #sidenav {
+        display: block !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* jumbotron */
+    .jumbotron .content p {
+        width: 100%;
+    }
+    /* welcome */
+    .welcome {
+        flex-direction: column;
+    }
+    .welcome img {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .welcome .content {
+        margin-left: 0;
+    }
+    /* about */
+    #about {
+        display: none !important;
+    }
+    /* item */
+    .item {
+        flex-direction: column !important;
+    }
+    .item.reverse {
+        flex-direction: column-reverse !important;
+    }
+
+    /* nav */
+    nav .links {
+        display: none !important;
+    }
+
+    header nav button {
+        display: flex;
+    }
+
+    #sidenav {
+        display: block !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container {
+        padding: 0 5rem;
+    }
+    /* item */
+    .item {
+        flex-direction: column !important;
+    }
+    /* about */
+    #about {
+        display: flex !important;
+    }
+
+    .jumbotron .content p {
+        width: 40%;
+    } 
+
+    /* nav */
+    nav .links {
+        display: flex !important;
+    }
+
+    header nav button {
+        display: none;
+    }
+
+    #sidenav {
+        display: none !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container {
+        padding: 0 7rem;
+    }
+    /* welcome */
+    .welcome {
+        flex-direction: row;
+    }
+    .welcome img {
+        width: 50%;
+    }
+    .welcome .content {
+        margin-left: 5rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1100px) {
+    /* item */
+    .item {
+        flex-direction: row !important;
+    }
+    .item.reverse {
+        flex-direction: row-reverse !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .container {
+        padding: 0 10rem;
+    }
+}
