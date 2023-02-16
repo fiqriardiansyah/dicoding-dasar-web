@@ -1,5 +1,14 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    nav .menu {
+        
+    }
+    nav .icon {
+        height: 40px;
+    }
+    nav {
+        padding: 10px 0;
+    }
     .container {
         padding: 0 2rem;
     }
@@ -67,6 +76,12 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    nav .icon {
+        height: 60px;
+    }
+    nav {
+        padding: 10px 0;
+    }
     /* jumbotron */
     .jumbotron .content p {
         width: 100%;

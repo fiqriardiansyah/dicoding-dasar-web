@@ -15,6 +15,8 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 body {
@@ -23,6 +25,8 @@ body {
     background-repeat: repeat-y;
     background-position-x: center;
     background-size: cover;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 header {
@@ -82,16 +86,36 @@ header nav button img {
 
 /* jumbotron */
 .jumbotron {
-    width: 100%;
+    width: 100vw;
     position: relative;
     display: flex;
     justify-content: end;
 }
 
-.jumbotron img {
-    width: 95vw;
+.jumbotron .images {
+    width: 100vw;
     height: 80vh;
     object-fit: cover;
+}
+
+.carousel-img {
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    object-fit: cover;
+    opacity: .7;
+    animation: img-in .7s;
+}
+
+@keyframes img-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: .7;
+    }
 }
 
 .jumbotron .content {
