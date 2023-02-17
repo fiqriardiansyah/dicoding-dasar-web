@@ -26,7 +26,7 @@ body {
     background-position-x: center;
     background-size: cover;
     width: 100vw;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 header {
@@ -147,6 +147,57 @@ header nav button img {
     width: 100%;
     display: flex;
     align-items: center;
+}
+
+.today-special {
+    background-image: url("../assets/jumbo4.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.today-special .box {
+    margin: 40px 0;
+    background-color: white;
+    border-radius: 10px;
+    height: 70%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.today-special .box h1 {
+    text-transform: capitalize;
+}
+
+.today-special .box .offers {
+    display: flex;
+}
+
+.today-special .box .offer {
+    flex: 1;
+}
+
+.today-special .box .offer img {
+    height: 200px;
+    width: 90%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.today-special .box .offer h1 {
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+.today-special .box .offer span {
+    text-transform: capitalize;
+    font-size: 10px !important;
+    font-weight: normal;
 }
 
 .welcome > * {

@@ -61,7 +61,7 @@ const contentHandler = () => {
 const carouselHandler = () => {
   let index = 0;
   const imagesContainer = document.querySelector(".images");
-  const pathImages = ["./assets/jumbo1.jpg", "./assets/jumbo2.jpg", "./assets/jumbo3.jpg", "./assets/jumbo4.jpg", "./assets/jumbo5.jpg"]
+  const pathImages = ["./assets/jumbo1.jpg", "./assets/jumbo2.jpg", "./assets/jumbo3.jpg", "./assets/jumbo5.jpg"]
   const elementImages = pathImages.map((path) => `<img src="${path}" alt="${path}" class="carousel-img" />`);
 
   imagesContainer.innerHTML = elementImages[pathImages.length - 1];
